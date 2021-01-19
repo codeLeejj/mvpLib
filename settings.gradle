@@ -1,2 +1,4 @@
-rootProject.name = "mvp"
+rootProject.name = "MVPSimple"
 include ':app'
+include ':libMVP'
+include ':libView'
