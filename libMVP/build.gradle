@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    api project(':libView')
+    api 'com.github.codeLeejj:RichView:1.0.2'
     //运行环境检查
     api 'com.scottyab:rootbeer-lib:0.0.8'
     //布局适配

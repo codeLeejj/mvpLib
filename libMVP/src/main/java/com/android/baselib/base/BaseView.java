@@ -10,11 +10,10 @@ import android.view.inputmethod.InputMethodManager;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.android.baselib.BuildConfig;
 import com.android.baselib.constants.MyBuildConfig;
 import com.android.baselib.mvp.IView;
 import com.android.baselib.utils.DialogUtil;
-import com.android.libview.utils.ToastTools;
+import com.android.libview.utils.ToastTool;
 import com.android.libview.view.TimerLoadingDialog;
 
 import java.util.ArrayList;
@@ -112,7 +111,7 @@ public class BaseView implements IView {
         if (TextUtils.isEmpty(msg)) {
             return;
         }
-        ToastTools.showShort(mActivity, msg);
+        ToastTool.showShort(mActivity, msg);
     }
 
     @Override

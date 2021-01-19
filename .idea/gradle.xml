@@ -11,10 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/libBase" />
             <option value="$PROJECT_DIR$/libMVP" />
-            <option value="$PROJECT_DIR$/libView" />
-            <option value="$PROJECT_DIR$/mview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
